@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="222e5930-ffe0-4db7-a5cd-6d35f0111958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/step_definitions/API_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/step_definitions/API_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/utilities/APIUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/utilities/APIUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mobiquity/step_definitions/API_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mobiquity/step_definitions/API_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mobiquity/utilities/APIUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mobiquity/utilities/APIUtility.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,28 +102,48 @@
       <option name="presentableId" value="Default" />
       <updated>1607605389862</updated>
     </task>
+    <task id="LOCAL-00001" summary="circleci">
+      <created>1607683561200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607683561200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="circleci" />
+    <option name="LAST_COMMIT_MESSAGE" value="circleci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607619733615">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1607619733615" />
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1607678032320">
+    <state x="262" y="5" key="CommitChangelistDialog2" timestamp="1607683560764">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607678032320" />
-    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1607678032318">
+    <state x="262" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607683560764" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1607726786372">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607678032318" />
-    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1607678032316">
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607726786372" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1607726786367">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607678032316" />
-    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1607678032319">
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607726786367" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1607726786365">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607678032319" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607726786365" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1607726786370">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607726786370" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1607683580921">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607683580921" />
   </component>
 </project>

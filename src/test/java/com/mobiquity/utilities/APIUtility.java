@@ -27,9 +27,17 @@ public class APIUtility {
 
             if (allRecord.get("username").toString().equalsIgnoreCase(userName)){
                 isIncluded=true;
+                System.out.println("User with username "+ userName +" is found.");
+                System.out.println();
+                System.out.println("---- User details -------");
+                System.out.println("Name     : "+ allRecord.get("name"));
+                System.out.println("E-mail   : "+ allRecord.get("email"));
+                System.out.println("Username : "+ allRecord.get("username"));
                 break;
             }
         }
+        if (isIncluded==false){
+            System.out.println("User with username "+ userName +" is not found."); }
         return isIncluded;
     }
 
@@ -41,7 +49,6 @@ public class APIUtility {
         for (Map<String, Object> allRecord : allRecords) {
             if (allRecord.get("username").toString().equalsIgnoreCase(userName)) {
                 userId = Integer.parseInt(allRecord.get("id").toString());
-                System.out.println("userId = " + userId);
                 break;
             }
         }
@@ -63,10 +70,8 @@ public class APIUtility {
         for (Integer postId : postIds) {
             Response response = given().queryParam("postId", postId).when().get(ConfigurationReader.get("baseURI") + "/comments");
             List<Map<String, Object>> allcomments = response.body().as(List.class);
-            System.out.println("Post Id : " + postId.toString());
             for (Map<String, Object> allcomment : allcomments) {
                 commentsEmails.add(allcomment.get("email").toString());
-                System.out.println("Comment e-mail : " + allcomment.get("email").toString());
             }
         }
     return commentsEmails;

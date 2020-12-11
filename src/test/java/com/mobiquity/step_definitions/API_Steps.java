@@ -23,7 +23,7 @@ public class API_Steps {
     @When("User sends GET request to endpoint {string}")
     public void user_sends_GET_request_to_endpoint(String path) {
         response = when().get(baseURI+path);
-        System.out.println(response.body().prettyPrint());
+        //System.out.println(response.body().prettyPrint());
     }
 
     @Then("Verifies that response status code is {int}")
@@ -49,17 +49,21 @@ public class API_Steps {
 
     @When("User is able to GET endpoint {string} written by username {string}")
     public void user_is_able_to_GET_endpoint_written_by_username(String postsURI, String userName) {
-
+        if (APIUtility.getUserId(userName)==0){
+            System.out.println("There is no user with username "+ userName);
+        }
         response=given().queryParam("userId",APIUtility.getUserId(userName)).when().get(baseURI+postsURI);
-        System.out.println(response.body().prettyPrint());
-
     }
 
 
     @Then("Verifies the {int} posts written by the user")
     public void verifies_the_posts_written_by_the_user(int postNum) {
         List<Map<String,Object>> allPosts=response.body().as(List.class);
+        if (allPosts.size()!=0){
+            System.out.println("The number of posts are written by user is "+postNum);
+        }
         Assert.assertEquals(postNum,allPosts.size());
+
 
     }
 
@@ -72,7 +76,6 @@ public class API_Steps {
 
         for (Integer postId : postIds) {
             response = given().queryParam("postId", postId).when().get(ConfigurationReader.get("baseURI") + "/comments");
-            //System.out.println(response.body().prettyPrint());
         }
 
     }
@@ -81,12 +84,21 @@ public class API_Steps {
     public void verifies_comments_e_mails_of_posts_are_proper_format(String userName) {
         int userId=APIUtility.getUserId(userName);
         List<Integer> postIds = APIUtility.getPostIds(userId);
-        List<String>  commentsEmails = APIUtility.getCommentsEmails(postIds);
 
-
-        for (String commentsEmail : commentsEmails) {
-            Assert.assertTrue(APIUtility.isValidEmail(commentsEmail));
-
+        List<String> commentsEmails = new ArrayList<>();
+        System.out.println("All posts Ids and their comments' emails list...");
+        for (Integer postId : postIds) {
+            Response response = given().queryParam("postId", postId).when().get(ConfigurationReader.get("baseURI") + "/comments");
+            List<Map<String, Object>> allcomments = response.body().as(List.class);
+            System.out.println("Post Id : " + postId.toString());
+            for (Map<String, Object> allcomment : allcomments) {
+                commentsEmails.add(allcomment.get("email").toString());
+                if (APIUtility.isValidEmail(allcomment.get("email").toString())){
+                    System.out.println("Comment e-mail : " + "\t" + allcomment.get("email").toString() + "\t \t Valid e-mail format");
+                }else {
+                    System.out.println("Comment e-mail : " + "\t" + allcomment.get("email").toString()+  "\t \t  Invalid e-mail format");
+                }
+            }
         }
     }
 
