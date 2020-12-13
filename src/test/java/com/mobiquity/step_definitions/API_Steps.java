@@ -95,6 +95,8 @@ public class API_Steps {
                 commentsEmails.add(allcomment.get("email").toString());
                 if (APIUtility.isValidEmail(allcomment.get("email").toString())){
                     System.out.println("Comment e-mail : " + "\t" + allcomment.get("email").toString() + "\t \t Valid e-mail format");
+                    System.out.println("Posted Comment   : " + "\t" + allcomment.get("body").toString());
+                    System.out.println();
                 }else {
                     System.out.println("Comment e-mail : " + "\t" + allcomment.get("email").toString()+  "\t \t  Invalid e-mail format");
                 }

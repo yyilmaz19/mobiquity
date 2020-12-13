@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mobiquity.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.747 s - in com.mobiquity.runners.CukesRunner
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.332 s - in com.mobiquity.runners.CukesRunner

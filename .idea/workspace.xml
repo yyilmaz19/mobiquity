@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="222e5930-ffe0-4db7-a5cd-6d35f0111958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/step_definitions/API_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/step_definitions/API_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/API.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3527313485.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3527313485.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149487065.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149487065.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_233058432.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_233058432.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mobiquity.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.mobiquity.runners.CukesRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.mobiquity.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.mobiquity.runners.CukesRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mobiquity/step_definitions/API_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mobiquity/step_definitions/API_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/API.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/API.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -111,8 +127,26 @@
       <option name="project" value="LOCAL" />
       <updated>1607726956137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="circleci">
+      <created>1607889176119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607889176119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="circleci" />
@@ -123,29 +157,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1607619733615" />
-    <state x="262" y="5" key="CommitChangelistDialog2" timestamp="1607726955657">
+    <state x="262" y="5" key="CommitChangelistDialog2" timestamp="1607897841802">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="262" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607726955657" />
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1607726786372">
+    <state x="262" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607897841802" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1607897841875">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607726786372" />
-    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1607726786367">
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607897841875" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1607897841872">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607726786367" />
-    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1607726786365">
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607897841872" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1607897841870">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607726786365" />
-    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1607726786370">
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607897841870" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1607897841873">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607726786370" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1607726967762">
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607897841873" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1607889179430">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607726967762" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607889179430" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607889289205">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1607889289205" />
   </component>
 </project>

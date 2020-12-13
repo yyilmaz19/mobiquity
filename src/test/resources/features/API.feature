@@ -29,7 +29,7 @@ Feature: API Test
     And  Verifies the 0 posts written by the user
 
    @api
-  Scenario Outline: Validate all posts'comments e-mails is proper format for a username
+  Scenario Outline: User should be able to fetch the comments and validate if the emails in the comment section are in the proper format
     When User is able to GET all comments for each posts written by username "<username>"
     Then Verifies that response status code is 200
     Then Verifies that response content type is "application/json; charset=utf-8"
@@ -39,3 +39,5 @@ Feature: API Test
      |username |
      | Delphine|
      | Bret    |
+     | Kamren  |
+

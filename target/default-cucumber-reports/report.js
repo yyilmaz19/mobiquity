@@ -208,7 +208,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "name": "Validate all posts\u0027comments e-mails is proper format for a username",
+  "name": "User should be able to fetch the comments and validate if the emails in the comment section are in the proper format",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -252,11 +252,16 @@ formatter.examples({
       "cells": [
         "Bret"
       ]
+    },
+    {
+      "cells": [
+        "Kamren"
+      ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Validate all posts\u0027comments e-mails is proper format for a username",
+  "name": "User should be able to fetch the comments and validate if the emails in the comment section are in the proper format",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -306,7 +311,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Validate all posts\u0027comments e-mails is proper format for a username",
+  "name": "User should be able to fetch the comments and validate if the emails in the comment section are in the proper format",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -347,6 +352,56 @@ formatter.result({
 });
 formatter.step({
   "name": "Verifies comments e-mails of \"Bret\" posts are proper format",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "API_Steps.verifies_comments_e_mails_of_posts_are_proper_format(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User should be able to fetch the comments and validate if the emails in the comment section are in the proper format",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@api"
+    }
+  ]
+});
+formatter.step({
+  "name": "User is able to GET all comments for each posts written by username \"Kamren\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "API_Steps.user_is_able_to_GET_all_comments_for_each_posts_written_by_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verifies that response status code is 200",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "API_Steps.verifies_that_response_status_code_is(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "API_Steps.verifies_that_response_content_type_is(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verifies comments e-mails of \"Kamren\" posts are proper format",
   "keyword": "And "
 });
 formatter.match({
